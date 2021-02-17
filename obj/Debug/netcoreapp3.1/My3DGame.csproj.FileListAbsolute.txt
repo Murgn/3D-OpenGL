@@ -1,9 +1,3 @@
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.exe
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.deps.json
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.runtimeconfig.json
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.runtimeconfig.dev.json
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.dll
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My3DGame.pdb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
@@ -17,11 +11,27 @@ C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.AssemblyInfoInputs.cache
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.AssemblyInfo.cs
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.csproj.CopyComplete
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.dll
-C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.pdb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.genruntimeconfig.cache
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\Font.xnb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\test_image.xnb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\erik.xnb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\bingus.xnb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\murgn.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\ForestArea1CompleteMap.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\ForestArea1CompleteMap_0.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\landscape.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.exe
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.deps.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.runtimeconfig.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.runtimeconfig.dev.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Murgn's World.pdb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\Murgn's World.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\Murgn's World.pdb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\closeup.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\cloud_layer.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\sky-polarized.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\skydome.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\cloud_layer_0.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\sky-polarized_0.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\sky_model.xnb

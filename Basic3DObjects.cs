@@ -126,7 +126,7 @@ namespace My3DGame
             objex = new List<Obj3D>();
 
             // Init
-            basic_effect.Alpha = .5f;                                            // Transparency
+            basic_effect.Alpha = 1;                                            // Transparency
             basic_effect.LightingEnabled = true;                                // Enables lighting
             basic_effect.AmbientLightColor = new Vector3(0.1f, 0.2f, 0.3f);     // medium dark for dark parts of object
             basic_effect.DiffuseColor = new Vector3(0.94f, 0.94f, 0.94f);       // pretty bright for lit parts of object
@@ -205,7 +205,11 @@ namespace My3DGame
                 basic_effect.World = ob.transform;
                 basic_effect.View = cam.view;
                 basic_effect.Projection = cam.proj;
-                foreach(EffectPass pass in basic_effect.CurrentTechnique.Passes)
+                basic_effect.FogEnabled = true;
+                basic_effect.FogStart = 15;
+                basic_effect.FogEnd = 500;
+                basic_effect.FogColor = new Vector3(0f, 0f, 0f);
+                foreach (EffectPass pass in basic_effect.CurrentTechnique.Passes)
                 {
                     pass.Apply();
                     gpu.DrawIndexedPrimitives(PrimitiveType.TriangleList, 0, ob.start_index, ob.triangle_count); o++;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/c638708296ae1e1e953bde7b77320550.png</SourceFile>
-  <SourceTime>2020-09-10T16:48:50.4588328+01:00</SourceTime>
+  <SourceTime>2021-02-17T16:28:46.0110209+00:00</SourceTime>
   <DestFile>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/erik.xnb</DestFile>
-  <DestTime>2021-02-17T14:06:16.2224791+00:00</DestTime>
+  <DestTime>2021-02-17T19:30:46.5604615+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

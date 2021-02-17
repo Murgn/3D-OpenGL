@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/skydome.fbx</SourceFile>
+  <SourceTime>2021-02-17T18:14:59.7108512+00:00</SourceTime>
+  <DestFile>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/Content/skydome.xnb</DestFile>
+  <DestTime>2021-02-17T18:16:02.5248762+00:00</DestTime>
+  <Importer>FbxImporter</Importer>
+  <ImporterTime>2020-08-10T16:17:54+01:00</ImporterTime>
+  <Processor>PassThroughProcessor</Processor>
+  <ProcessorTime>2020-08-10T16:17:54+01:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

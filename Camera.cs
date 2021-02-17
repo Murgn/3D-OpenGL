@@ -8,7 +8,7 @@ namespace My3DGame
     {
         public const float CAM_HEIGHT_OFFSET = 80f; // default up-distance from the player's root position (depends on character size = 80 up in y direction to look at head)
 
-        public const float FAR_PLANE = 2000;        // farthest camera can see (dont render things further than this plane)
+        public const float FAR_PLANE = 1000;        // farthest camera can see (dont render things further than this plane)
         public Vector3 pos, target;                 // camera position, target to look at
         public Matrix view, proj, view_proj;        // view/projection transforms used to transform world vertices to screen coordinates relative to camera
         public Vector3 up;                          // up direction for camera and world geometry (may depend on imported geometry's up direction
@@ -22,7 +22,7 @@ namespace My3DGame
         public Camera(GraphicsDevice gpu, Vector3 UpDirection, Input input) // HARDCODE THE UP POSITION LATER, GET RID OF THE VECTOR3
         {
             up = UpDirection;
-            pos = new Vector3(20, -30, -50);                                // CHANGE CAMERA POS LATER
+            pos = new Vector3(0, 25, -100);                                // CHANGE CAMERA POS LATER
             target = Vector3.Zero;
             view = Matrix.CreateLookAt(pos, target, up);
             proj = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, gpu.Viewport.AspectRatio, 0.1f, FAR_PLANE);
@@ -50,11 +50,11 @@ namespace My3DGame
         public void Update_Player_Cam()
         {
             #region TEMPORARY_CAMERA_CONTROL
-            if (inp.KeyDown(Keys.A)) { pos.Y += 5; }
-            if (inp.KeyDown(Keys.Z)) { pos.Y -= 5; }
-            if (inp.KeyDown(Keys.Q)) { pos.X += 5; }
-            if (inp.KeyDown(Keys.W)) { pos.X -= 5; }
-            if (inp.KeyDown(Keys.X)) { pos.Z += 5; }
+            if (inp.KeyDown(Keys.Space)) { pos.Y += 5; }
+            if (inp.KeyDown(Keys.LeftControl)) { pos.Y -= 5; }
+            if (inp.KeyDown(Keys.A)) { pos.X += 5; }
+            if (inp.KeyDown(Keys.D)) { pos.X -= 5; }
+            if (inp.KeyDown(Keys.W)) { pos.Z += 5; }
             if (inp.KeyDown(Keys.S)) { pos.Z -= 5; }
             #endregion
 
