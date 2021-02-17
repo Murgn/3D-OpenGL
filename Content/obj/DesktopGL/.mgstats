@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/closeup.gif","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/test_image.xnb","TextureProcessor","Texture2DContent",576953,2560085,0.5103361
+"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/Font.spritefont","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.4205
