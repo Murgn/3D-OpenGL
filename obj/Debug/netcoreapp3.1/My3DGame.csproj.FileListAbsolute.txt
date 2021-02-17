@@ -22,3 +22,6 @@ C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My3DGame.genruntimeconfig.cache
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\Font.xnb
 C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\test_image.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\erik.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\bingus.xnb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\Content\murgn.xnb

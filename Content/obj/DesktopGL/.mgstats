@@ -1,3 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/closeup.gif","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/test_image.xnb","TextureProcessor","Texture2DContent",576953,2560085,0.5103361
+"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/c638708296ae1e1e953bde7b77320550.png","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/erik.xnb","TextureProcessor","Texture2DContent",93477,262229,0.1796861
+"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/closeup.gif","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/murgn.xnb","TextureProcessor","Texture2DContent",576953,2560085,0.2108813
+"C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/download (26).jpg","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/bingus.xnb","TextureProcessor","Texture2DContent",49953,3686485,0.1349142
 "C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/Font.spritefont","C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/bin/DesktopGL/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.4205

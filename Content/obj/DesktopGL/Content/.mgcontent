@@ -4,11 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/c638708296ae1e1e953bde7b77320550.png</File>
     <File>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/closeup.gif</File>
+    <File>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/download (26).jpg</File>
     <File>C:/Users/morga/source/repos/3D OpenGL/3D OpenGL/Content/Font.spritefont</File>
   </SourceFiles>
   <DestFiles>
-    <File>test_image.gif</File>
+    <File>erik.png</File>
+    <File>murgn.gif</File>
+    <File>bingus.jpg</File>
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

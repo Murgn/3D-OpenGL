@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace My3DGame
 {
@@ -13,13 +14,16 @@ namespace My3DGame
         SpriteBatch spriteBatch;
         SpriteFont font;
         static public int screenWidth, screenHeight;
+        Camera cam;
 
         // Input & Utilities
         Input inp;
 
         // RenderTargets & Textures
         RenderTarget2D MainTarget;
-        Texture2D test_tex;
+
+        //3D
+        Basic3DObjects basic3D;
 
         // Rectangles
         Rectangle desktopRect;
@@ -57,6 +61,11 @@ namespace My3DGame
             screenRect = new Rectangle(0, 0, screenWidth, screenHeight);
 
             inp = new Input(pp, MainTarget);
+
+            // Init 3D
+            cam = new Camera(gpu, Vector3.Down, inp); // Change Vector3.Down to Vector3.Up if the models need it
+            basic3D = new Basic3DObjects(gpu, cam.up, Content);
+
             base.Initialize();
         }
 
@@ -64,17 +73,39 @@ namespace My3DGame
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             font = Content.Load<SpriteFont>("Font");
-            test_tex = Content.Load<Texture2D>("test_image");
 
-            // TODO: use this.Content to load your game content here
+            basic3D.AddFloor(320, 180, Vector3.Zero, Vector3.Zero, "bingus", null);
+            basic3D.AddCube(50, 50, 50, Vector3.Zero, Vector3.Zero, "erik", null);    // Object 1
+            basic3D.AddCube(50, 50, 50, Vector3.Zero, Vector3.Zero, "test_image", null);     // Object 0
+           
+            basic3D.objex[1].pos = new Vector3(10, -20, 40);
+           
+
+
         }
 
+        // ADD YOUR GAME LOGIC HERE
         protected override void Update(GameTime gameTime)
         {
             inp.Update();
-            if (inp.back_down || inp.KeyDown(Keys.Escape)) Exit();
+            if (inp.back_down || inp.KeyDown(Keys.Escape)) Exit(); // change to menu for exit later
 
-            // TODO: Add your update logic here
+            Console.Write("Leftstick Y: " + inp.gp.ThumbSticks.Left.Y + "\n");
+            Console.Write("Leftstick X: " + inp.gp.ThumbSticks.Left.X + "\n");
+
+            //cam.MoveCamera(new Vector3(inp.Horizontal, 0, inp.Vertical));
+            cam.MoveCamera(new Vector3(inp.gp.ThumbSticks.Left.Y * -1, inp.gp.ThumbSticks.Right.Y, inp.gp.ThumbSticks.Left.X));
+            cam.Update_Player_Cam();
+            if (inp.KeyDown(Keys.Up)) basic3D.objex[0].pos.Z++;
+            if (inp.KeyDown(Keys.Down)) basic3D.objex[0].pos.Z--;
+            if (inp.KeyDown(Keys.Left)) basic3D.objex[0].pos.X--;
+            if (inp.KeyDown(Keys.Right)) basic3D.objex[0].pos.X++;
+            if (inp.KeyDown(Keys.PageUp)) basic3D.objex[0].pos.Y--;
+            if (inp.KeyDown(Keys.PageDown)) basic3D.objex[0].pos.Y++;
+           // basic3D.objex[1].rot.Y += 0.03f;                       // rotate just for fun
+            basic3D.objex[1].UpdateTransform();
+
+
 
             base.Update(gameTime);
         }
@@ -90,13 +121,15 @@ namespace My3DGame
             }
         }
 
+        // RENDER SCENE OBJECTS
         protected override void Draw(GameTime gameTime)
         {
             gpu.SetRenderTarget(MainTarget);
             Set3DStates();
             gpu.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Transparent, 1.0f, 0);
 
-            // TODO: RENDER SCENE OBJECTS
+            // Render 3D Objects
+            basic3D.Draw(cam);
 
             // Draws MainTarget to BackBuffer
             gpu.SetRenderTarget(null);

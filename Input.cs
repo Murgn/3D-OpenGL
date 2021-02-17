@@ -14,6 +14,8 @@ namespace My3DGame
         public KeyboardState kb, okb; 
         public bool shift_down, control_down, alt_down, shift_press, control_press, alt_press;
         public bool old_shift_down, old_control_down, old_alt_down;
+        public float Horizontal;
+        public float Vertical;
 
         // Mouse Input
         public MouseState ms, oms;
@@ -58,6 +60,14 @@ namespace My3DGame
             if ((shift_down) && (!old_shift_down)) shift_press = true;
             if ((control_down) && (!old_control_down)) control_press = true;
             if ((alt_down) && (!old_alt_down)) alt_press = true;
+
+            // Input thats kind of like Unity
+            if(!kb.IsKeyDown(Keys.D) || !kb.IsKeyDown(Keys.A)) Horizontal = 0;
+            else if (kb.IsKeyDown(Keys.D)) Horizontal = 1;
+            else if (kb.IsKeyDown(Keys.A)) Horizontal = -1;
+            if (!kb.IsKeyDown(Keys.W) || !kb.IsKeyDown(Keys.S)) Vertical = 0;
+            else if (kb.IsKeyDown(Keys.W)) Vertical = 1;
+            else if (kb.IsKeyDown(Keys.S)) Vertical = -1;
 
             // Mouse Input
             mosV = new Vector2((float)ms.Position.X * screenScaleX, (float)ms.Position.Y * screenScaleY);
