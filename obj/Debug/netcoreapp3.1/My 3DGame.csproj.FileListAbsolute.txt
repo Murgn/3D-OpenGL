@@ -1,0 +1,21 @@
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.exe
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.deps.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.runtimeconfig.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.runtimeconfig.dev.json
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\My 3DGame.pdb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.AssemblyInfoInputs.cache
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.AssemblyInfo.cs
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.csproj.CopyComplete
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.dll
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.pdb
+C:\Users\morga\source\repos\3D OpenGL\3D OpenGL\obj\Debug\netcoreapp3.1\My 3DGame.genruntimeconfig.cache
